@@ -9,9 +9,9 @@ In the summarization, when there are abbreviations put what the abbreviation sta
 
 Whenever you put the definition of the abbreviation in the summarization highlight it by italicizing the definition in the square brackets.
 
-Use this decoder doc as a reference for abbreviations https://docs.google.com/document/d/18H3-SIXcQczUhhK1WyfGRUFsQZnIffBGA-9-3Wzlm-M
+Use the decode-sf skill to decode abbreviations.
 
-Do not put definitions for these abbreviations:
+Do not decode these abbreviations:
 - API
 - AWS
 - ETL
