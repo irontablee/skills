@@ -12,12 +12,27 @@ Whenever you put the definition of the abbreviation in the summarization highlig
 Use the decode-sf skill to decode abbreviations.
 
 Do not decode these abbreviations:
+- Ajna
+- Airflow
+- AMI
 - API
 - AWS
+- BDIP
+- DAG
+- DQ
+- EBS
+- EC2
+- EMR
 - ETL
 - GCP
 - GenAI
+- Mirus
+- RCA
 - SDK
+- SF Spark
+- Spark
+- Splunk
 - SQL
 - T&P
+- UIP
 - V2MOM

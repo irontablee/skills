@@ -10,13 +10,17 @@ Salesforce Technology & Products
 | **F** |  |  |
 | FKP | Falcon Kubernetes Platform — managed K8s runtime in Falcon. **Same platform as SAM** (formerly "SAM-Falcon"); registered as the `sam` service in Falcon's service registry, so "FKP service" and "sam service" are used interchangeably. | [FKP capability page](https://docs.internal.salesforce.com/capabilities/fkp/) — [FKP Runbook](https://confluence.internal.salesforce.com/spaces/ADOSCR/pages/954041737/) |
 | FMP | Informal shorthand for SFMP (Salesforce Management Plane) — see SFMP below. | [SFMP Home](https://confluence.internal.salesforce.com/display/SFMP/SFMP+Home) |
+| FTE | Fault-Tolerant Execution — Trino feature (set via `retry_policy=TASK` session property) that retries failed tasks within a query instead of restarting the whole query from scratch. Uses an "exchange manager" backed by an S3 spooling bucket. In April 2026 the Interactive Analytics team launched **Automatic FTE**: an ML model (Trino Query Predictor) predicts heavy queries and auto-enables FTE for them. Distinct from the HR sense of FTE (Full-Time Employee/Equivalent). | [Trino docs: fault-tolerant-execution](https://trino.io/docs/current/admin/fault-tolerant-execution.html) — [Auto-FTE announcement](https://salesforce.enterprise.slack.com/archives/C08NERTUKAS/p1776806008313339) |
 | **G** |  |  |
 | **H** |  |  |
+| HPS | Hyperforce Platform Services (formerly HIPE) — division responsible for delivering Hyperforce as a platform: infrastructure, trust/security, and developer productivity. Org led by Paul Constantinides. | [GlossaryHub: HPS](https://glossaryhub-live-search.herokuapp.com/s/HPS) |
+| HRP | Hyperforce Runtime Platform — runtime infrastructure layer for Hyperforce deployments; the platform that runs workloads on public cloud (AWS, etc.). | [GlossaryHub: HRP](https://glossaryhub-live-search.herokuapp.com/s/HRP) |
 | **I** |  |  |
 | **J** |  |  |
 | **K** |  |  |
 | **L** |  |  |
 | **M** |  |  |
+| MELT | Metrics, Events, Logs, and Traces — the four canonical telemetry signal types. At Salesforce, MELT is provided by Moncloud. |  |
 | **N** |  |  |
 | **O** |  |  |
 | **P** |  |  |
